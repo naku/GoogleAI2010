@@ -1,0 +1,37 @@
+16 16
+################
+#####        ###
+#   #        2##
+#  ####  #  # ##
+#    ###      ##
+#      #####1 ##
+#  #  #  #  # ##
+#             ##
+#             ##
+#  #  #  #  # ##
+#             ##
+#             ##
+#  #  #  #  # ##
+#             ##
+#             ##
+################
+
+Mon bot va en haut, alors qu'il suffirait de couper le terrain en 2 (à droite).
+C'est la faute min-max qui joue coup par coup, mon bot pense qu'il pourra jouer le coup suivant (2 en dessous de 1):
+################
+#####        ###
+#   #        ###
+#  ####  #  ####
+#    ###    #1##
+#      ###### ##
+#  #  #  #  # ##
+#             ##
+#             ##
+#  #  #  #  # ##
+#             ##
+#             ##
+#  #  #  #  # ##
+#             ##
+#             ##
+################
+Cela conduit à un draw

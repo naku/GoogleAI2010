@@ -1,0 +1,22 @@
+15 15
+###############
+## #### #######
+####### #######
+####### #######
+####### #######
+######  #######
+###### ########
+######  #######
+###### ########
+###### ########
+###### ########
+###### 1  #####
+######2     ###
+#######      ##
+###############
+
+2 est allé en haut!
+Il aurait du aller à droite
+- 13 cases libre à droite
+- 13 cases libre en haut
+Mais une du haut n'est pas parcourable. Pour voir cela en min-max il faut anticiper au moins 5 coups.
